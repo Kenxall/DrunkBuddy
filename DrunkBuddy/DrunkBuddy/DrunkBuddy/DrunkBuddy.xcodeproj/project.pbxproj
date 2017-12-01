@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF4505A51FCE62B9006B4319 /* WordGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4505A41FCE62B9006B4319 /* WordGameViewController.swift */; };
+		CF4505A91FCF3D54006B4319 /* image-1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4505A71FCF3D54006B4319 /* image-1.png */; };
+		CF4505AA1FCF3D54006B4319 /* 341591.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4505A81FCF3D54006B4319 /* 341591.png */; };
 		CF4A7C261FC23CDB008B0DD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A7C251FC23CDB008B0DD7 /* AppDelegate.swift */; };
 		CF4A7C281FC23CDB008B0DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A7C271FC23CDB008B0DD7 /* ViewController.swift */; };
 		CF4A7C2B1FC23CDB008B0DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4A7C291FC23CDB008B0DD7 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		CF4A7C3B1FC23CDB008B0DD7 /* DrunkBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A7C3A1FC23CDB008B0DD7 /* DrunkBuddyTests.swift */; };
 		CF4A7C461FC23CDB008B0DD7 /* DrunkBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A7C451FC23CDB008B0DD7 /* DrunkBuddyUITests.swift */; };
 		CF4A7C5A1FC266EA008B0DD7 /* Test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A7C591FC266EA008B0DD7 /* Test1ViewController.swift */; };
+		CFD567061FCF778500898B09 /* MathGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD567051FCF778500898B09 /* MathGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF4505A41FCE62B9006B4319 /* WordGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordGameViewController.swift; sourceTree = "<group>"; };
+		CF4505A71FCF3D54006B4319 /* image-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-1.png"; sourceTree = "<group>"; };
+		CF4505A81FCF3D54006B4319 /* 341591.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 341591.png; sourceTree = "<group>"; };
 		CF4A7C221FC23CDB008B0DD7 /* DrunkBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrunkBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4A7C251FC23CDB008B0DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF4A7C271FC23CDB008B0DD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		CF4A7C451FC23CDB008B0DD7 /* DrunkBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrunkBuddyUITests.swift; sourceTree = "<group>"; };
 		CF4A7C471FC23CDB008B0DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF4A7C591FC266EA008B0DD7 /* Test1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test1ViewController.swift; sourceTree = "<group>"; };
+		CFD567051FCF778500898B09 /* MathGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF4505A61FCF3D54006B4319 /* imagesDrunkB */ = {
+			isa = PBXGroup;
+			children = (
+				CF4505A71FCF3D54006B4319 /* image-1.png */,
+				CF4505A81FCF3D54006B4319 /* 341591.png */,
+			);
+			path = imagesDrunkB;
+			sourceTree = "<group>";
+		};
 		CF4A7C191FC23CDB008B0DD7 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +123,9 @@
 				CF4A7C2E1FC23CDB008B0DD7 /* LaunchScreen.storyboard */,
 				CF4A7C311FC23CDB008B0DD7 /* Info.plist */,
 				CF4A7C591FC266EA008B0DD7 /* Test1ViewController.swift */,
+				CF4505A41FCE62B9006B4319 /* WordGameViewController.swift */,
+				CF4505A61FCF3D54006B4319 /* imagesDrunkB */,
+				CFD567051FCF778500898B09 /* MathGameViewController.swift */,
 			);
 			path = DrunkBuddy;
 			sourceTree = "<group>";
@@ -196,6 +216,7 @@
 				TargetAttributes = {
 					CF4A7C211FC23CDB008B0DD7 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PXWYT2SFQ3;
 						ProvisioningStyle = Automatic;
 					};
 					CF4A7C351FC23CDB008B0DD7 = {
@@ -236,8 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF4A7C301FC23CDB008B0DD7 /* LaunchScreen.storyboard in Resources */,
+				CF4505AA1FCF3D54006B4319 /* 341591.png in Resources */,
 				CF4A7C2D1FC23CDB008B0DD7 /* Assets.xcassets in Resources */,
 				CF4A7C2B1FC23CDB008B0DD7 /* Main.storyboard in Resources */,
+				CF4505A91FCF3D54006B4319 /* image-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4505A51FCE62B9006B4319 /* WordGameViewController.swift in Sources */,
 				CF4A7C5A1FC266EA008B0DD7 /* Test1ViewController.swift in Sources */,
 				CF4A7C281FC23CDB008B0DD7 /* ViewController.swift in Sources */,
 				CF4A7C261FC23CDB008B0DD7 /* AppDelegate.swift in Sources */,
+				CFD567061FCF778500898B09 /* MathGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,24 +440,30 @@
 		CF4A7C4B1FC23CDB008B0DD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				DEVELOPMENT_TEAM = PXWYT2SFQ3;
 				INFOPLIST_FILE = DrunkBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kendall-Harrison.DrunkBuddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CF4A7C4C1FC23CDB008B0DD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				DEVELOPMENT_TEAM = PXWYT2SFQ3;
 				INFOPLIST_FILE = DrunkBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kendall-Harrison.DrunkBuddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

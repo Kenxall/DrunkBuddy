@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "43F2BE3395C9E1DB6AB95D287CD7B72494DCA183",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "43F2BE3395C9E1DB6AB95D287CD7B72494DCA183" : 9223372036854775807,
+    "CA80C7F08D3DE2E48AF0B2E4D7ABEE911E4C8C59" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7769C3F1-73E5-4389-99CB-2D9715E6EE34",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "43F2BE3395C9E1DB6AB95D287CD7B72494DCA183" : "DrunkBuddy\/",
+    "CA80C7F08D3DE2E48AF0B2E4D7ABEE911E4C8C59" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DrunkBuddy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DrunkBuddy.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Kenxall\/DrunkBuddyProj.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43F2BE3395C9E1DB6AB95D287CD7B72494DCA183"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Kenxall\/DrunkBuddy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CA80C7F08D3DE2E48AF0B2E4D7ABEE911E4C8C59"
+    }
+  ]
+}

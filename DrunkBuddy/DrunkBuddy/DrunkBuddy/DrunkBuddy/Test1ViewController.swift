@@ -19,6 +19,11 @@ class Test1ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    enum inputError: Error{
+        case string
+        case int
+    }
+    
 
     /*
     // MARK: - Navigation
@@ -40,7 +45,11 @@ class Test1ViewController: UIViewController {
     @IBOutlet weak var mixedDrinks: UITextField!
     @IBOutlet weak var shots: UITextField!
     @IBOutlet weak var bacLabel: UILabel!
-    @IBAction func nextButton(_ sender: AnyObject) {
+    @IBOutlet weak var errorLabel: UILabel!
+    @IBAction func nextButton(_ sender: AnyObject)  {
+        
+        
+        
         var age = Double(self.age.text!)
         let weight = Double(self.weight.text!)
         let gender = String(self.gender.text!)
@@ -49,7 +58,54 @@ class Test1ViewController: UIViewController {
         let wine = Double(self.wine.text!)
         let mixedDrinks = Double(self.mixedDrinks.text!)
         let shots = Double(self.shots.text!)
+        var error = 0
+        errorLabel.text=""
         
+        //error handling
+        if (gender == "" || (weight == nil) || (time == nil) || (beer == nil) || (wine == nil) || (mixedDrinks == nil)){
+                errorLabel.text = "*Fill in all required fields"
+                error = 1
+        }
+        /*
+        if (gender != "male" || gender != "Male" || gender != "MALE" || gender != "female" || gender != "Female" || gender != "FEMALE"){
+                errorLabel.text = "Invalid input for gender"
+                error = 1
+        }*/
+        
+        
+        /*
+        if  (Double(weight!) <= 0.0 || Double(weight!) >= 500.0) {
+                errorLabel.text = "*Invalid input for beverages consumed, weight, or time"
+                error = 1
+            }
+            
+        if  (Double(time!) <= 0.0 || Double(time!) >= 1000.0){
+                errorLabel.text = "*Invalid input for beverages consumed, weight, or time"
+                error = 1
+        }
+        
+        if  (Double(beer!) <= 0.0 || Double(beer!) >= 50.0){
+                errorLabel.text = "*Invalid input for beverages consumed, weight, or time"
+                error = 1
+        }
+        
+        if  (Double(wine!) <= 0.0 || Double(wine!) >= 50.0){
+                errorLabel.text = "*Invalid input for beverages consumed, weight, or time"
+                error = 1
+        }
+        
+        if  (Double(mixedDrinks!) <= 0.0 || Double(mixedDrinks!) >= 500.0){
+                errorLabel.text = "*Invalid input for beverages consumed, weight, or time"
+                error = 1
+        }
+        
+        if  (Double(shots!) <= 0.0 || Double(shots!) >= 500.0 ){
+                errorLabel.text = "*Invalid input for beverages consumed, weight, or time"
+                error = 1
+        }*/
+    
+        //Calculation for BAC start here
+        if (error == 0){
         let bVal = Double(beer! * 12 * 0.05)
         let wVal = Double(wine! * 5 * 0.12)
         let mVal = Double(mixedDrinks! * 2 * 0.4)
@@ -64,8 +120,8 @@ class Test1ViewController: UIViewController {
         let dTol = bVal + wVal + mVal + sVal
         let bacVal = ((dTol*5.14)/( weight!*gVal))-0.015 * time!
         bacLabel.text = "BACLevel = \(bacVal)"
-       /* if(age <= 21.0){
-            
-        }*/
+        errorLabel.text = ""
+        }
     }
+
 }
